@@ -1,24 +1,11 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Hiroto Template">
-    <meta name="keywords" content="Hiroto, unica, creative, html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hotel XCoders</title>
-
-    <!-- Css Styles -->
-    @include('includes.css')
-</head>
+<!-- Head Section Begin -->
+@include('includes.head')
+<!-- Head Section End -->
 
 <body>
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
-
     <!-- Header Section Begin -->
     @include('includes.header')
     <!-- Header Section End -->
@@ -180,10 +167,10 @@
             <div class="home__explore">
                 <div class="row">
                     <div class="col-lg-9 col-md-8">
-                        <h3>Planning your next trip? Save up to 25% on your hotel</h3>
+                        <h3>Vous préparez votre prochain trip ? Economisez plus de 25% sur votre hotêl</h3>
                     </div>
                     <div class="col-lg-3 col-md-4 text-center">
-                        <a href="#" class="primary-btn">Explorer More</a>
+                        <a href="#" class="primary-btn">Découvrir</a>
                     </div>
                 </div>
             </div>
@@ -203,8 +190,8 @@
                 <div class="col-lg-7">
                     <div class="testimonial__text">
                         <div class="section-title">
-                            <h5>Testimonials</h5>
-                            <h2>What do customers say about us?</h2>
+                            <h5>Témoignanges</h5>
+                            <h2>Ce que les clients disent à propos de nous...</h2>
                         </div>
                         <div class="testimonial__slider__content">
                             <div class="testimonial__slider owl-carousel">
@@ -350,10 +337,10 @@
                 <div class="col-lg-8 text-center">
                     <div class="chooseus__text">
                         <div class="section-title">
-                            <h5>WHY CHOOSE US</h5>
-                            <h2>Contact us now to get the latest deals and for the next booking</h2>
+                            <h5>Pourquoi nous choisr ?</h5>
+                            <h2>Contactez nous maintenant pour avoir le meilleur deal sur la prochaine réservation</h2>
                         </div>
-                        <a href="#" class="primary-btn">Booking Now</a>
+                        <a href="#" class="primary-btn">Réserver</a>
                     </div>
                 </div>
             </div>
@@ -368,15 +355,14 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="section-title">
-                            <h5>OUR GALLERY</h5>
-                            <h2>Explore The Most Beautiful In The Hotel</h2>
+                            <h5>Notre gallerie</h5>
+                            <h2>Explorez un endroit hors du commun</h2>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="gallery__title">
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                nulla pariatur. Sunt in culpa qui officia deserunt mollit anim.</p>
-                            <a href="#" class="primary-btn">View Gallery <span class="arrow_right"></span></a>
+                            <p>Découvrez ici quelques clichés de notre petit paradis du repos.</p>
+                            <a href="#" class="primary-btn">Voir la gallerie <span class="arrow_right"></span></a>
                         </div>
                     </div>
                 </div>
@@ -397,8 +383,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h5>NEWS & EVENT</h5>
-                        <h2>From Our Blog</h2>
+                        <h5>Actualités & événements</h5>
+                        <h2>En ce moment sur notre Blog</h2>
                     </div>
                 </div>
             </div>

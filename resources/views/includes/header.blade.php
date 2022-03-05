@@ -1,3 +1,8 @@
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
+
 <header class="header">
     <div class="header__top">
         <div class="container">
@@ -42,9 +47,9 @@
                     <div class="header__nav">
                         <nav class="header__menu">
                             <ul class="menu__class">
-                                <li class="active"><a href="./index.html">Acceuil</a></li>
-                                <li><a href="./rooms.html">Chambres</a></li>
-                                <li><a href="./about.html">A propos</a></li>
+                                <li @if ($view_name == 'home') class="active" @endif><a href="{{ url('/') }}">Acceuil</a></li>
+                                <li @if ($view_name == 'pages-rooms') class="active" @endif><a href="{{ route('rooms') }}">Chambres</a></li>
+                                <li @if ($view_name == 'pages-about') class="active" @endif><a href="{{ route('about') }}">A propos</a></li>
                                 <li><a href="#">Pages</a>
                                     <ul class="dropdown">
                                         <li><a href="./about.html">A propos</a></li>
@@ -52,8 +57,8 @@
                                         <li><a href="./blog-details.html">Article de blog</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="./blog.html">Blog</a></li>
-                                <li><a href="./contact.html">Contact</a></li>
+                                <li @if ($view_name == 'blog-blog') class="active" @endif><a href="{{ route('blog') }}">Blog</a></li>
+                                <li @if ($view_name == 'contact') class="active" @endif><a href="./contact.html">Contact</a></li>
                             </ul>
                         </nav>
                         <div class="header__nav__widget">
